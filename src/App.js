@@ -3,18 +3,20 @@ import React from "react";
 import './App.css';
 import moviesData from './data/movies';
 import cardData from './data/card';
+import Header from './components/Header';
+
 
 function App() {
   return (
     <main>
       <Header />
-      <MovieList />
+      {/*<MovieList/>*/}
       <Footer />
     </main>
   );
 }
 
-function Header() {
+function HeaderA() {
   return (
     <div>
       <h1>Korean Movies</h1>

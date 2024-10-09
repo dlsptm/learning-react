@@ -41,3 +41,51 @@ ul li {
 .best {
   border: 2px solid hotpink;
 }
+
+.numbers {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.numbers div {
+  background: grey;
+  border-radius: 50%;
+  padding: 15px 20px;
+}
+
+.numbers div.active {
+  background: #7950f2;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 80%;
+}
+
+.card div {
+  padding: 20px 30px;
+}
+
+.img {
+  width: 100%;
+}
